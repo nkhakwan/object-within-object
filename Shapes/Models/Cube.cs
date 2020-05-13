@@ -12,13 +12,13 @@ namespace Shapes.Models
     public int GetVolume()
     {
       int length = Face.Length;
-      return length * length * length;
+      return length * length * length; // length * width * height
     }
 
     public int GetSurfaceArea()
     {
       int length = Face.Length;
-      return (length * length) * 6;
+      return (length * length) * 6; // faces of cube
     }
   }
 }
